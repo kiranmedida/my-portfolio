@@ -1,0 +1,64 @@
+.contact {
+  min-height: 100vh;
+  width: 100%;
+  background: #000;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.contact-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+ 
+}
+
+.contact-title {
+  font-size: 2.6rem;
+  margin-bottom: 15px;
+}
+
+.contact-desc {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.contact-terminal {
+  font-family: monospace;
+}
+
+.contact-terminal p {
+  color: #38f2ff;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
+
+.contact-social {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  padding-right: 20px;
+}
+
+.contact-social img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.85;
+  cursor: pointer;
+  
+  ;
+}
+
+.contact-social img:hover {
+  opacity: 1;
+}
+
